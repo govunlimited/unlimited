@@ -224,11 +224,13 @@ p {
 
 .brand {
   display: inline-block;
-  font-family: 'Droid Sans', sans-serif;
+  margin-top: 6px;
+  font-family: Anonymouspro, sans-serif;
   color: #2e2e2e;
   font-size: 24px;
   line-height: 22px;
   font-weight: 800;
+  letter-spacing: 2px;
 }
 
 .logo {
@@ -249,7 +251,7 @@ p {
 
 .section.hero {
   height: 500px;
-  padding-top: 92px;
+  padding-top: 0px;
   padding-bottom: 92px;
   background-color: #200e05;
   text-align: center;
@@ -264,7 +266,10 @@ p {
 }
 
 .grey-heading {
-  color: rgba(0, 0, 0, .56);
+  margin-bottom: 20px;
+  font-family: Anonymouspro, sans-serif;
+  color: rgba(46, 28, 9, .8);
+  font-weight: 700;
   text-shadow: none;
 }
 
@@ -286,7 +291,7 @@ p {
 
 .heading {
   font-family: 'Droid Sans', sans-serif;
-  color: #ece9d9;
+  color: #e9e9d9;
   font-size: 90px;
   line-height: 100px;
   font-weight: 900;
@@ -308,10 +313,13 @@ p {
 
 .text-block-2 {
   position: static;
+  margin-top: 6px;
   padding-top: 0px;
+  font-family: Anonymouspro, sans-serif;
 }
 
 .text-span-2 {
+  color: #e9e9d9;
   letter-spacing: 20px;
 }
 
@@ -324,7 +332,33 @@ p {
 }
 
 .heading-2 {
+  font-family: Anonymouspro, sans-serif;
   color: #ece9d9;
+}
+
+.image {
+  height: 500px;
+}
+
+.paragraph {
+  margin-top: 9px;
+  margin-bottom: 7px;
+  font-family: Anonymouspro, sans-serif;
+  color: rgba(46, 28, 9, .8);
+  font-weight: 700;
+}
+
+.paragraph-2 {
+  font-family: Anonymouspro, sans-serif;
+}
+
+.paragraph-3 {
+  overflow: auto;
+  margin-bottom: 8px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  color: rgba(46, 28, 9, .8);
+  font-size: 18px;
+  font-weight: 400;
 }
 
 @media (max-width: 991px) {
@@ -438,3 +472,27 @@ p {
   }
 }
 
+@font-face {
+  font-family: 'Anonymouspro';
+  src: url('../fonts/AnonymousPro-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Anonymouspro';
+  src: url('../fonts/AnonymousPro-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anonymouspro';
+  src: url('../fonts/AnonymousPro-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Anonymouspro';
+  src: url('../fonts/AnonymousPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
