@@ -479,7 +479,19 @@ p {
 }
 
 .image-3 {
-  max-height: 150px;
+  max-width: 120%;
+}
+
+.image-4 {
+  max-width: 120%;
+}
+
+.image-5 {
+  max-width: 120%;
+}
+
+.image-6 {
+  max-width: 120%;
 }
 
 @media (max-width: 991px) {
